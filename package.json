@@ -13,8 +13,9 @@
     "db:reset": "npm run db:schema && npm run db:seed"
   },
   "dependencies": {
+    "dotenv": "^18.0.7",
     "express": "^5.1.0",
-    "pg": "^8.14.1"
+    "pg": "^8.23.1"
   },
   "devDependencies": {
     "supertest": "^7.1.0",
